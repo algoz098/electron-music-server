@@ -1,0 +1,25 @@
+{
+  "name": "electron-music-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "directory-tree": "^2.0.0",
+    "fs": "0.0.1-security",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.5",
+    "loudness": "^0.2.2",
+    "player": "^0.6.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js"
+  },
+  "author": "Artur Sena e Silva",
+  "license": "MIT",
+  "bin": {
+    "emusicserver": "./app.js"
+  }
+}
