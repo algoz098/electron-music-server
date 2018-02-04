@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/algoz098/electron-music-server"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/algoz098/electron-music-server"
   },
   "dependencies": {
     "directory-tree": "^2.0.0",
@@ -25,6 +24,6 @@
   "author": "Artur Sena e Silva",
   "license": "MIT",
   "bin": {
-    "emusicserver": "./app.js"
+    "electron-music-server": "./app.js"
   }
 }
